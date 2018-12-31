@@ -1,0 +1,14 @@
+package io.javabrains.springbootstarter;
+
+import org.springframework.boot.SpringApplication;
+
+@SptringBootApplication
+public class CourseApiApp {
+
+	public static void main(String[] args) {
+		 
+		SpringApplication.main(args);
+
+	}
+
+}

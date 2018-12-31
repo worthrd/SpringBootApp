@@ -1,0 +1,12 @@
+package io.javabrains.springbootstarter;
+
+
+@SptringBootApplication
+public class CourseApiApp {
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}
