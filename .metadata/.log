@@ -831,3 +831,89 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-31 21:38:33.875
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ckFTywbx => OK
+!SESSION 2019-01-01 11:50:55.698 -----------------------------------------------
+eclipse.buildId=4.1.0.201812201400-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-01-01 11:51:06.481
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-01 11:51:06.481
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24f177f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65e05005,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:21.769
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:21.783
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@24fb8317[org.springframework.tooling.boot.ls:1.2.0.201812201040(id=531)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:21.800
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:21.921
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-01 11:51:22.365
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\recep'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.479
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fmYpsvve
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.488
+!MESSAGE subscribing to classpath changes: sts4.classpath.fmYpsvve
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.496
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.505
+!MESSAGE subsribers = [sts4.classpath.fmYpsvve]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.512
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.523
+!MESSAGE project couse-api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.531
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.540
+!MESSAGE Preparing classpath changed notification couse-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.547
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fmYpsvve => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.554
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.586
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.599
+!MESSAGE executing callback sts4.classpath.fmYpsvve couse-api false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 11:51:29.985
+!MESSAGE executing callback sts4.classpath.fmYpsvve SUCCESS [done]
